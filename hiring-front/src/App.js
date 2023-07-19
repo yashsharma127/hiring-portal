@@ -1,4 +1,5 @@
 import coverimg from "./images/cover.jpg"
+import Projects from "./components/Emp";
 
 const App = () => {
   const emp = [
@@ -25,7 +26,7 @@ const App = () => {
         <img className="pt-20 ml-80" src={coverimg} alt="Image not found"/>
       </div>
       <div className="grid grid-rows gap-8 min-h-screen pt-28 p-16">
-       
+       <Projects empdata = {emp}/>
         
       </div>
 
