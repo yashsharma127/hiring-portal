@@ -2,7 +2,7 @@ import logo from '../images/logo.png'
 
 
 const currentYear = (new Date().getFullYear())
-const yearTxt = currentYear === 2022 ? "2022" : "2022 - "+currentYear
+const yearTxt = currentYear === 2023 ? "2023" : "2023 - "+currentYear
 
 const Footer = () => {
     return(
